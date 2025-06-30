@@ -1,4 +1,4 @@
-## Anomaly-Detection-for-Water-Meter-Monitoring-with-Machine-Learning
+## Anomaly Detection for Water Meter Monitoring with Machine Learning
 
 ### Project Overview
 
@@ -62,7 +62,7 @@ Future improvements could include more robust labeling techniques and better fea
 ### Research Paper
 
 > Lin, Y. H. (2025). Anomaly Detection for Water Meter Monitoring with Machine Learning. 
-> 📄 [Download Final Research Report (PDF)](./Final_Research_paper.pdf)
+> 📄 [Download Final Research Report (PDF)](./Research_paper.pdf)
 
 
 ### Tech Stack
