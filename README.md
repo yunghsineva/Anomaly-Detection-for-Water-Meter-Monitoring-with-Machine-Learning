@@ -41,18 +41,18 @@ Building a hybrid model, which combines the advantages of supervised and unsuper
 
 
 ### Repository Structure
-├── 2016_filtering_data.ipynb # Extract 2016 data from the whole dataset
+<pre>├── 2016_filtering_data.ipynb # Extract 2016 data from the whole dataset
 ├── Hybrid_model_training.ipynb # Data preprocessing and models training
 ├── Final_result.ipynb # Prediction and Evaluation 
-└── README.md # Project overview 
+└── README.md # Project overview </pre>
 
 ### Results Summary
 
-**Threshold**: 0.09
-**Accuracy**: 0.7343713270371548
-**Precision**: 0.0937579617834395
-**Recall**: 0.22807561202355128
-**F1 Score**: 0.13288796605579128
+- **Threshold**: 0.09
+- **Accuracy**: 0.7343713270371548
+- **Precision**: 0.0937579617834395
+- **Recall**: 0.22807561202355128
+- **F1 Score**: 0.13288796605579128
 
 The higher recall rate suggests that the model predicted many anomaly readings. However, due to the low precision, the F1 score might not be high.
 Low precision and high FP indicate that many normal usages were incorrectly identified as anomalies. However, due to the objective of identifying and predicting anomalous water usage, the main focus was on reducing the misrecognition of true anomaly data and increasing the number of true anomaly data that are recognized. Therefore, the higher recall rate allows for higher sensitivity to anomalies, which could be useful in alerting users to potential water usage issues. 
